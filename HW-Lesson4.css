@@ -1,0 +1,36 @@
+
+
+body {
+    font-family:verdana;
+    font-size: 85%;
+    font-weight: 450;
+    border: 5px solid black;
+    width: 550px;
+    padding: 6px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 6px;
+}
+li::marker {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.note {
+    margin: 5px
+}
+.color-red {
+    color: red;
+}
+.color-blue {
+    color:blue;
+}
+.text-italic {
+    font-style: italic;
+}
+.blue-box {
+    background-color: lightblue;
+    border: 5px solid blue;
+    margin: 10px;
+    padding: 15px;
+}
