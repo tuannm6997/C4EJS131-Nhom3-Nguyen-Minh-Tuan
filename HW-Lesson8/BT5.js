@@ -1,23 +1,16 @@
-let x=1
+let x=0
 let y=0
-let z=x+1
-let a=0
-let b=x
-var m=100
-
+let m=99
 do{
-    a=y
-    if (b%2!=0){
-        y=a+b/z;
+    if (x%2 === 1){
+        y=y+x/(x+1);
     }
     else{
-        y=a-b/z;
+        y=y-x/(x+1);
     }
-    b=z;
     x++;
-    z=x;
 }
 while(x<=m);    
 if (x=m){
-    console.log(y)
+    console.log(y);
    }      
