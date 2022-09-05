@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1,
+  h2 {
+    margin: 0px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0px 10px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 3px solid rgb(99, 95, 95);
+    padding: 10px 0px 5px 10px;
+    margin: 10px 0px;
+  }
+  
+  #readList {
+    border: 2px solid rgb(99, 95, 95);
+    border-radius: 5px;
+    min-width: 600px;
+
+  }
+  
+  #header {
+    padding: 20px 0px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #listCont {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  #Title {
+    align-self: flex-start;
+  }
+  
+  #addBtnContainer {
+    align-self: center;
+    display: flex;
+  }
+  
+  #searchInput {
+    height: 25px;
+    border: 1px solid rgb(99, 95, 95);
+  }
+  
+  #addInput {
+    border: 1px solid rgb(99, 95, 95);
+  }
+  
+  .delBt {
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .addBt {
+    color: white;
+    background-color: purple;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
