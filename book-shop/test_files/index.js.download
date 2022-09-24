@@ -1,0 +1,26 @@
+let counter = 1;
+setInterval(function () {
+  document.getElementById("radio" + counter).checked = true;
+  counter++;
+  if (counter > 3) {
+    counter = 1;
+  }
+}, 3000);
+
+function openregester() {
+  document.querySelector(".modal").style.display = "flex";
+  document.querySelector(".auth-form").style.display = "block" ;
+document.querySelector(".auth-form2").style.display = "none";
+}
+function openlogin() {
+  document.querySelector(".modal").style.display = "flex";
+  document.querySelector(".auth-form").style.display = "none" ;
+document.querySelector(".auth-form2").style.display = "block"
+ 
+}
+var modal = document.querySelector(".modal");
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
